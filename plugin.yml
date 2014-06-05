@@ -1,0 +1,11 @@
+ name: WhoBrokeIt
+ version: 0.1
+ main: com.lightniinja.wbi.WBIPlugin
+ depends: SQLibrary
+ softdepends: WorldEdit
+ 
+ commands:
+    wbi:
+        usage: /wbi
+        description: WhoBrokeIt
+        aliases: whobrokeit

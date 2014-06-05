@@ -1,0 +1,14 @@
+storage: sqlite
+ # sqlite or mysql
+
+## Configure sqlite
+sq_dbfile: wbi.db
+sq_tableprefix: wbi_
+
+## Configure mysql
+my_host: localhost
+my_user: root
+my_pass: "" 
+## no password, with password = my_pass: test
+my_db: wbi
+my_tableprefix: wbi_
